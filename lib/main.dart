@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Screens/loginPage.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'Screens/homepage.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.light,           // thememode to use darkmode
       theme: ThemeData(                     // simple theme to use light mode
-        primarySwatch: Colors.deepPurple
+        primarySwatch: Colors.deepPurple,
+        fontFamily: GoogleFonts.lato().fontFamily,
       ),
       darkTheme: ThemeData(brightness:Brightness.dark),          //darktheme for dark theme
       initialRoute: "/home",
