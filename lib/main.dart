@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     //$days where days =int 30 ,num for int,double,or use var.. khatam, const for constant
     return MaterialApp(
       themeMode: ThemeMode.light,           // thememode to use darkmode
-     // debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(                     // simple theme to use light mode
         primarySwatch: Colors.deepPurple,
         fontFamily: GoogleFonts.lato().fontFamily,
